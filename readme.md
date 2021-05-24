@@ -4,11 +4,13 @@
 paper link: https://arxiv.org/abs/1908.05932
 
 ## **1.1 Train**
+It is still being prepared.
 ```
 & python main.py --
 ```
 
 ## **1.2 Test**
+It is still being prepared.
 ```
 & python main.py --
 ```
@@ -16,11 +18,6 @@ paper link: https://arxiv.org/abs/1908.05932
 ## **Directors structure**
 ```
 FACE-SWAPPING
-+---[losses]
-|   +---__init__.py
-|   |---gan_loss.py
-|   |---vgg_loss.py
-|
 +---[models]
 |   +---__init__.py
 |   |---unet.py
@@ -28,5 +25,11 @@ FACE-SWAPPING
 +---[utils]
 |   +---__init__.py
 |   |---bbox_utils.py
+|   |---confusion_matrix.py
 |   |---image_utils.py
+|   |---iou_metric.py
+|   |---landmark_utils.py
+|   |---logger.py
+|   |---seg_utils.py
+|   |---utils.py
 ```
