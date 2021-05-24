@@ -33,3 +33,9 @@ FACE-SWAPPING
 |   |---seg_utils.py
 |   |---utils.py
 ```
+
+### Models
+
+1. UNet
+
+![UNet_architecture](./images/UNet_architecture.PNG)
